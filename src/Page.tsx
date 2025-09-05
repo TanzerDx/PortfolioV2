@@ -1,5 +1,7 @@
 import SocialChannels from "./components/common/SocialChannels";
 import Menu from "./components/common/Menu";
+import AboutMe from "./components/layout/AboutMe";
+import TechStack from "./components/layout/TechStack";
 
 function Page() {
   return (
@@ -11,12 +13,12 @@ function Page() {
           Full Stack Developer
         </h1>
 
-        <h1 className="text-textColor text-lg mt-[4%] w-[450px]">
+        <h1 className="text-textColor text-md mt-[4%] w-[400px]">
           I build full-stack platforms that are responsive, user-friendly, and
           optimized for performance and scalability.
         </h1>
 
-        <div className="ml-[23%] mt-[10%]">
+        <div className="ml-[16%] mt-[10%]">
           <Menu />
         </div>
 
@@ -26,7 +28,13 @@ function Page() {
       </div>
 
       <div className="ml-[50%] w-1/2">
-        <h1 className="text-white">TO FINISH</h1>
+        <div className="mb-[15%]">
+          <AboutMe />
+        </div>
+
+        <div>
+          <TechStack />
+        </div>
       </div>
     </div>
   );
