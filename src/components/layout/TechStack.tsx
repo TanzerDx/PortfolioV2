@@ -11,152 +11,144 @@ import UnityLogo from "../../assets/images/Unity.png";
 import CSLogo from "../../assets/images/CS.png";
 import TailwindLogo from "../../assets/images/Tailwind.png";
 
-function TechStack() {
+const TechStack: React.FC = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-x-[5%] gap-y-[5%] pr-[10%] pt-[3%] pb-[10%]">
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="pt-[6%]" src={ReactLogo} alt="ReactLogo" />
+      <div className="grid grid-cols-3 gap-x-[5%] gap-y-[7%] pt-[3%] pb-[10%] w-[700px]">
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={ReactLogo} alt="ReactLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               React
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={SpringLogo} alt="SpringLogo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={SpringLogo} alt="SpringLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Spring Boot
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img
-              className="pl-[6%] pt-[8%]"
-              src={DockerLogo}
-              alt="DockerLogo"
-            />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={DockerLogo} alt="DockerLogo" />
           </div>
           <div className="justify-center items-center relative">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Docker
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={JavaLogo} alt="JavaLogo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={JavaLogo} alt="JavaLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Java
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={KubernetesLogo} alt="KubernetesLogo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={KubernetesLogo} alt="KubernetesLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Kubernetes
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img
-              className="p-[6%] rounded-2xl"
-              src={JSLogo}
-              alt="JavaScriptLogo"
-            />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img className="rounded-2xl" src={JSLogo} alt="JavaScriptLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               JavaScript
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={HTML5Logo} alt="HTML5Logo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img className="rounded-2xl" src={TSLogo} alt="TypeScriptLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
-              HTML5
-            </h1>
-          </div>
-        </div>
-
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={TSLogo} alt="TypeScriptLogo" />
-          </div>
-          <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               TypeScript
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={NGINXLogo} alt="NGINXLogo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={HTML5Logo} alt="HTML5Logo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+              HTML5
+            </h1>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={NGINXLogo} alt="NGINXLogo" />
+          </div>
+          <div className="justify-center items-center">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               nginx
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={TailwindLogo} alt="TailwindLogo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={CSLogo} alt="CSLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
-              Tailwind
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+              C#
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={UnityLogo} alt="UnityLogo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={UnityLogo} alt="UnityLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Unity5
             </h1>
           </div>
         </div>
 
-        <div className="text-black flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
-          <div className="p-[5%] w-[60%] h-[100%] rounded-3xl">
-            <img className="p-[6%]" src={CSLogo} alt="CSLogo" />
+        <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
+          <div className="w-[60%] h-[100%] rounded-3xl">
+            <img src={TailwindLogo} alt="TailwindLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-bold text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
-              C#
+            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+              Tailwind
             </h1>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default TechStack;

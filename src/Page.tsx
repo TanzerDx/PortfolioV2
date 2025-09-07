@@ -2,6 +2,7 @@ import SocialChannels from "./components/common/SocialChannels";
 import Menu from "./components/common/Menu";
 import AboutMe from "./components/layout/AboutMe";
 import TechStack from "./components/layout/TechStack";
+import Projects from "./components/layout/Projects";
 
 function Page() {
   return (
@@ -32,8 +33,12 @@ function Page() {
           <AboutMe />
         </div>
 
-        <div>
+        <div className="mb-[15%]">
           <TechStack />
+        </div>
+
+        <div className="mb-[15%]">
+          <Projects />
         </div>
       </div>
     </div>

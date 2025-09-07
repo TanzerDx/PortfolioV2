@@ -2,7 +2,7 @@ import GithubLogo from "../../assets/images/GitHub.png";
 import LinkedInLogo from "../../assets/images/LinkedIn.png";
 import MailLogo from "../../assets/images/Gmail.png";
 
-function SocialChannels() {
+const SocialChannels: React.FC = () => {
   return (
     <div className="flex gap-10">
       <a href="https://github.com/TanzerDx" className="rounded-3xl">
@@ -21,6 +21,6 @@ function SocialChannels() {
       </a>
     </div>
   );
-}
+};
 
 export default SocialChannels;
