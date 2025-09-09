@@ -4,10 +4,10 @@ import AboutMe from "./components/layout/AboutMe";
 import TechStack from "./components/layout/TechStack";
 import Projects from "./components/layout/Projects";
 
-function Page() {
+const Page: React.FC = () => {
   return (
     <div className="flex flex-row pt-[5%] pb-[2%]">
-      <div className="flex flex-col ml-[20%] fixed w-[900px] h-[80%]">
+      <div className="flex flex-col ml-[20%] fixed w-[900px] h-[80%] z-0">
         <h1 className="text-5xl text-primaryColor">Hristo Ganchev</h1>
 
         <h1 className="text-textColor text-2xl mt-[2%]">
@@ -28,7 +28,7 @@ function Page() {
         </div>
       </div>
 
-      <div className="ml-[50%] w-1/2">
+      <div className="ml-[50%] w-1/2 z-10">
         <div className="mb-[15%]">
           <AboutMe />
         </div>
@@ -43,6 +43,6 @@ function Page() {
       </div>
     </div>
   );
-}
+};
 
 export default Page;
