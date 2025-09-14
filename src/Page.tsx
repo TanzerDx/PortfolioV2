@@ -38,15 +38,15 @@ const Page: React.FC = () => {
       </div>
 
       <div className="ml-[50%] w-1/2 z-10">
-        <div ref={aboutmeRef} className="mb-[10%]">
+        <div ref={aboutmeRef} className="mb-[7%]">
           <AboutMe />
         </div>
 
-        <div ref={techstackRef} className="mt-[10%] mb-[10%]">
+        <div ref={techstackRef} className="mt-[12%] mb-[13%]">
           <TechStack />
         </div>
 
-        <div ref={projectsRef} className="mt-[10%] mb-[10%]">
+        <div ref={projectsRef} className="mt-[13%] mb-[6%]">
           <Projects />
         </div>
       </div>
