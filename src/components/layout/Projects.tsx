@@ -9,33 +9,33 @@ const Projects: React.FC = () => {
               &#8599;
             </p>
           </div>
-          <h1 className="mt-[1%] text-textColor subpixel-antialiased text-md">
+          <p className="mt-[1%] text-textColor subpixel-antialiased text-md">
             A user-friendly website where concert lovers can purchase tickets to
             many events and have all of them in one place. Upon creating a
             registration, the user immediately has access to purchasing concert
             tickets, display the e-tickets on their devices, and has history of
             past concerts they have attended.
-          </h1>
+          </p>
           <div className="flex flex-row mt-[2%] gap-5">
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 React
-              </h1>
+              </p>
             </div>
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 JavaScript
-              </h1>
+              </p>
             </div>
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 Spring Boot
-              </h1>
+              </p>
             </div>
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 MySQL
-              </h1>
+              </p>
             </div>
           </div>
         </div>
@@ -48,17 +48,17 @@ const Projects: React.FC = () => {
               &#8599;
             </p>
           </div>
-          <h1 className="mt-[1%] text-textColor subpixel-antialiased text-md">
+          <p className="mt-[1%] text-textColor subpixel-antialiased text-md">
             A video game that I have worked on in collaboration with another
             software developer. It is a top-down tower defense game made
             entirely in Unity. The goal of the player is simple: build defense
             against numerous waves of monsters and defeat the final boss.
-          </h1>
+          </p>
           <div className="flex flex-row mt-[2%] gap-5">
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 Unity
-              </h1>
+              </p>
             </div>
           </div>
         </div>
@@ -81,24 +81,24 @@ const Projects: React.FC = () => {
           </p>
           <div className="flex flex-row mt-[2%] gap-5">
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 React
-              </h1>
+              </p>
             </div>
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 SRS
-              </h1>
+              </p>
             </div>
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 nginx
-              </h1>
+              </p>
             </div>
             <div className="rounded-3xl pt-[0.5%] pb-[0.5%] pl-[1%] pr-[1%] bg-secondaryColor/25">
-              <h1 className="text-secondaryColor subpixel-antialiased text-md">
+              <p className="text-secondaryColor subpixel-antialiased text-md">
                 TypeScript
-              </h1>
+              </p>
             </div>
           </div>
         </div>

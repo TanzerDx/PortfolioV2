@@ -20,9 +20,9 @@ const TechStack: React.FC = () => {
             <img src={ReactLogo} alt="ReactLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               React
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -31,9 +31,9 @@ const TechStack: React.FC = () => {
             <img src={SpringLogo} alt="SpringLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Spring Boot
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -42,9 +42,9 @@ const TechStack: React.FC = () => {
             <img src={DockerLogo} alt="DockerLogo" />
           </div>
           <div className="justify-center items-center relative">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Docker
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -53,9 +53,9 @@ const TechStack: React.FC = () => {
             <img src={JavaLogo} alt="JavaLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Java
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -64,9 +64,9 @@ const TechStack: React.FC = () => {
             <img src={KubernetesLogo} alt="KubernetesLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Kubernetes
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -75,9 +75,9 @@ const TechStack: React.FC = () => {
             <img className="rounded-2xl" src={JSLogo} alt="JavaScriptLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               JavaScript
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -86,9 +86,9 @@ const TechStack: React.FC = () => {
             <img className="rounded-2xl" src={TSLogo} alt="TypeScriptLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               TypeScript
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -97,9 +97,9 @@ const TechStack: React.FC = () => {
             <img src={HTML5Logo} alt="HTML5Logo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               HTML5
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -108,9 +108,9 @@ const TechStack: React.FC = () => {
             <img src={NGINXLogo} alt="NGINXLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               nginx
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -119,9 +119,9 @@ const TechStack: React.FC = () => {
             <img src={CSLogo} alt="CSLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               C#
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -130,9 +130,9 @@ const TechStack: React.FC = () => {
             <img src={UnityLogo} alt="UnityLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Unity5
-            </h1>
+            </p>
           </div>
         </div>
 
@@ -141,9 +141,9 @@ const TechStack: React.FC = () => {
             <img src={TailwindLogo} alt="TailwindLogo" />
           </div>
           <div className="justify-center items-center">
-            <h1 className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+            <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
               Tailwind
-            </h1>
+            </p>
           </div>
         </div>
       </div>

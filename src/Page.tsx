@@ -4,31 +4,39 @@ import AboutMe from "./components/layout/AboutMe";
 import TechStack from "./components/layout/TechStack";
 import Projects from "./components/layout/Projects";
 import { useRef } from "react";
+import { useSectionObserver } from "./hooks/useSectionObserver";
 
 const Page: React.FC = () => {
   const aboutmeRef = useRef<HTMLDivElement | null>(null);
   const techstackRef = useRef<HTMLDivElement | null>(null);
   const projectsRef = useRef<HTMLDivElement | null>(null);
 
+  const activeId = useSectionObserver([
+    { id: "aboutme", ref: aboutmeRef },
+    { id: "techstack", ref: techstackRef },
+    { id: "projects", ref: projectsRef },
+  ]);
+
   return (
     <div className="flex flex-row pt-[5%] pb-[2%]">
       <div className="flex flex-col ml-[20%] fixed w-[900px] h-[80%] z-0">
-        <h1 className="text-5xl text-primaryColor">Hristo Ganchev</h1>
+        <p className="text-5xl text-primaryColor">Hristo Ganchev</p>
 
-        <h1 className="text-textColor text-2xl mt-[2%]">
+        <h2 className="text-textColor text-2xl mt-[2%]">
           Full Stack Developer
-        </h1>
+        </h2>
 
-        <h1 className="text-textColor text-md mt-[4%] w-[400px]">
+        <h3 className="text-textColor text-md mt-[4%] w-[400px]">
           I build full-stack platforms that are responsive, user-friendly, and
           optimized for performance and scalability.
-        </h1>
+        </h3>
 
         <div className="ml-[14%] mt-[10%]">
           <Menu
             aboutmeRef={aboutmeRef}
             techstackRef={techstackRef}
             projectsRef={projectsRef}
+            activeId={activeId}
           />
         </div>
 
@@ -38,15 +46,15 @@ const Page: React.FC = () => {
       </div>
 
       <div className="ml-[50%] w-1/2 z-10">
-        <div ref={aboutmeRef} className="mb-[7%]">
+        <div ref={aboutmeRef} id="aboutme" className="mb-[7%]">
           <AboutMe />
         </div>
 
-        <div ref={techstackRef} className="mt-[12%] mb-[13%]">
+        <div ref={techstackRef} id="techstack" className="mt-[12%] mb-[13%]">
           <TechStack />
         </div>
 
-        <div ref={projectsRef} className="mt-[13%] mb-[6%]">
+        <div ref={projectsRef} id="projects" className="mt-[13%] mb-[6%]">
           <Projects />
         </div>
       </div>
