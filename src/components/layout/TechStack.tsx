@@ -14,7 +14,7 @@ import TailwindLogo from "../../assets/images/Tailwind.png";
 const TechStack: React.FC = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 gap-x-[5%] gap-y-[7%] pt-[3%] pb-[10%] w-[700px]">
+      <div className="grid mb-[450px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-3 gap-x-[5%] gap-y-[7%] pt-[3%] sm:mb-[550px] md:mb-[200px] lg:mb-[100px] 2xl:mb-[70px] 2xl:w-[700px]">
         <div className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group">
           <div className="w-[60%] h-[100%] rounded-3xl">
             <img src={ReactLogo} alt="ReactLogo" />
