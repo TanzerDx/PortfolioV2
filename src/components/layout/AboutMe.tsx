@@ -1,6 +1,6 @@
 const AboutMe: React.FC = () => {
   return (
-    <div className="max-w-[700px] space-y-4">
+    <div className="space-y-4">
       <p className="text-textColor subpixel-antialiased text-lg">
         Hey! My name is Hristo. I am a 4th-year Software Engineering student in
         the Netherlands.

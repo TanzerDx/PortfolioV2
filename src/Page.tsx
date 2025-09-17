@@ -45,27 +45,29 @@ const Page: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-[10%] ml-[3%] items-center 2xl:ml-[50%] 2xl:mt-[0%] 2xl:w-1/2 2xl:z-10">
-        <p className="text-primaryColor mb-[4%] font-bold text-xl 2xl:hidden">
-          ABOUT ME
-        </p>
-        <div ref={aboutmeRef} id="aboutme" className="mb-[50px]">
-          <AboutMe />
+      <div className="mt-[10%] md:mt-[6%] lg:mt-[5%] xl:mt-[4%] ml-[3%] items-center 2xl:ml-[50%] 2xl:mt-[0%] 2xl:w-1/2 2xl:z-10">
+        <div className="2xl:mb-[150px] pr-[3%] 2xl:pl-[3%] 2xl:max-w-[700px]">
+          <p className="text-primaryColor mb-[2%] font-bold text-xl 2xl:hidden">
+            ABOUT ME
+          </p>
+          <div ref={aboutmeRef} id="aboutme" className="mb-[50px]">
+            <AboutMe />
+          </div>
         </div>
 
-        <div
-          ref={techstackRef}
-          id="techstack"
-          className="mt-[100px] mb-[150px]"
-        >
-          <p className="text-primaryColor mb-[4%] font-bold text-xl 2xl:hidden">
+        <div ref={techstackRef} id="techstack" className="2xl:pb-[30px]">
+          <p className="text-primaryColor mb-[2%] xl:mb-[0.5%] font-bold text-xl 2xl:hidden">
             TECH STACK
           </p>
           <TechStack />
         </div>
 
-        <div ref={projectsRef} id="projects" className="mt-[100px] mb-[50px]">
-          <p className="text-primaryColor mb-[3%] font-bold text-xl 2xl:hidden">
+        <div
+          ref={projectsRef}
+          id="projects"
+          className="mt-[100px] xl:mt-[120px] 2xl:mt-[140px] mb-[50px]"
+        >
+          <p className="text-primaryColor mb-[1.5%] font-bold text-xl 2xl:hidden">
             PROJECTS
           </p>
           <Projects />

@@ -1,6 +1,6 @@
 const Projects: React.FC = () => {
   return (
-    <div className="flex flex-col gap-8 max-w-[700px]">
+    <div className="flex flex-col gap-8 pr-[3%] 2xl:pl-[3%] 2xl:max-w-[700px]">
       <a className="group" href="https://github.com/TanzerDx">
         <div className="rounded-2xl border border-transparent bg-white/0 hover:bg-white/10 duration-300 px-1 py-4">
           <div className="flex flex-row text-textColor subpixel-antialiased group-hover:text-primaryColor duration-300">
