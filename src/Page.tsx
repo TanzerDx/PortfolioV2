@@ -19,14 +19,14 @@ const Page: React.FC = () => {
 
   return (
     <div className="flex flex-col 2xl:flex-row pt-[5%] pb-[2%]">
-      <div className="flex flex-col ml-[3%] 2xl:fixed 2xl:ml-[20%] w-[900px] h-[80%] z-0">
+      <div className="flex flex-col ml-[3%] 2xl:fixed 2xl:ml-[20%] w-[350px] 2xl:w-[900px] h-[80%] z-0">
         <p className="text-5xl text-primaryColor">Hristo Ganchev</p>
 
-        <h2 className="text-textColor text-2xl mt-[2%]">
+        <h2 className="text-textColor text-2xl mt-[8%] 2xl:mt-[2%]">
           Full Stack Developer
         </h2>
 
-        <h3 className="text-textColor text-md mt-[4%] w-[400px]">
+        <h3 className="text-textColor text-md mt-[8%] 2xl:mt-[4%] w-[350px] md:w-[400px]">
           I build full-stack platforms that are responsive, user-friendly, and
           optimized for performance and scalability.
         </h3>
@@ -40,7 +40,7 @@ const Page: React.FC = () => {
           />
         </div>
 
-        <div className="mt-[5%] 2xl:mt-auto">
+        <div className="mt-[12%] 2xl:mt-auto">
           <SocialChannels />
         </div>
       </div>

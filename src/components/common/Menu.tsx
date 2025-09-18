@@ -4,7 +4,7 @@ type MenuProps = {
   aboutmeRef: RefObject<HTMLDivElement | null>;
   techstackRef: RefObject<HTMLDivElement | null>;
   projectsRef: RefObject<HTMLDivElement | null>;
-  activeId: string; // ⬅️ add this prop
+  activeId: string;
 };
 
 const Menu: React.FC<MenuProps> = ({
