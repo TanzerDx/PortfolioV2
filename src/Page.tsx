@@ -40,7 +40,7 @@ const Page: React.FC = () => {
           />
         </div>
 
-        <div className="mt-[2%] 2xl:mt-auto">
+        <div className="mt-[5%] 2xl:mt-auto">
           <SocialChannels />
         </div>
       </div>
@@ -50,7 +50,7 @@ const Page: React.FC = () => {
           <p className="text-primaryColor mb-[2%] font-bold text-xl 2xl:hidden">
             ABOUT ME
           </p>
-          <div ref={aboutmeRef} id="aboutme" className="mb-[50px]">
+          <div ref={aboutmeRef} id="aboutme" className="mb-[75px]">
             <AboutMe />
           </div>
         </div>

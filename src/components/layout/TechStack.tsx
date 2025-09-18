@@ -30,13 +30,13 @@ const techStack = [
 const TechStack: React.FC = () => {
   return (
     <div>
-      <div className="grid mb-[450px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-3 gap-x-[5%] gap-y-[7%] mt-[3%] sm:mb-[550px] md:mb-[200px] lg:mb-[100px] 2xl:mb-[70px] 2xl:w-[700px]">
+      <div className="grid mb-[280px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-3 gap-x-[5%] gap-y-[7%] mt-[3%] sm:mb-[400px] md:mb-[200px] lg:mb-[100px] 2xl:mb-[70px] 2xl:w-[700px]">
         {techStack.map((tech) => (
           <div
             key={tech.name}
             className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group"
           >
-            <div className="w-[60%] h-[100%] rounded-3xl">
+            <div className="w-[40%] h-[80%] md:w-[60%] md:h-[100%] rounded-3xl">
               <img
                 src={tech.logo}
                 alt={`${tech.name} Logo`}
