@@ -13,8 +13,10 @@ const Menu: React.FC<MenuProps> = ({
   projectsRef,
   activeId,
 }) => {
-  const baseClass = "text-lg subpixel-antialiased";
-  const activeClass = "text-white font-bold";
+  const baseClass =
+    "text-lg decoration-transparent subpixel-antialiased underline hover:decoration-white hover:text-white hover:font-bold hover:duration-300 hover:underline-offset-[4px]";
+  const activeClass =
+    "text-white font-bold underline decoration-white duration-300 underline-offset-[4px]";
   const inactiveClass = "text-secondaryColor";
 
   return (
