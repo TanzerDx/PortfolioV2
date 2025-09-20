@@ -30,7 +30,7 @@ const techStack = [
 const TechStack: React.FC = () => {
   return (
     <div>
-      <div className="grid mb-[330px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-3 gap-x-[5%] gap-y-[7%] mt-[3%] sm:mb-[400px] md:mb-[200px] lg:mb-[100px] 2xl:mb-[70px] 2xl:w-[700px]">
+      <div className="grid mb-[270px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-3 gap-x-[5%] gap-y-[7%] mt-[3%] sm:mb-[400px] md:mb-[200px] lg:mb-[100px] 2xl:mb-[70px] 2xl:w-[700px]">
         {techStack.map((tech) => (
           <div
             key={tech.name}

@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
             tickets, display the e-tickets on their devices, and has history of \
             past concerts they have attended.",
       techstack: ["React", "JavaScript", "Spring Boot", "MySQL"],
-      href: "https://github.com/TanzerDx",
+      href: "https://github.com/TanzerDx/Ticketpass-Backend",
     },
     {
       name: "ARCANE DEFENDER",
@@ -64,7 +64,10 @@ const Projects: React.FC = () => {
         </a>
       ))}
 
-      <a className="group w-[200px] px-1" href="https://github.com/TanzerDx">
+      <a
+        className="group w-[200px] px-1"
+        href="https://github.com/TanzerDx?tab=repositories"
+      >
         <div className="flex flex-row text-textColor subpixel-antialiased">
           <p className="transition-all decoration-transparent text-lg font-semibold group-hover:underline group-hover:decoration-primaryColor duration-300 underline-offset-[8px]">
             View All Projects
