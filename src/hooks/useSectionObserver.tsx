@@ -7,6 +7,10 @@ export function useSectionObserver(
   const [activeId, setActiveId] = useState<string>("aboutme");
 
   useEffect(() => {
+    if (window.scrollY === 0) {
+      setActiveId("aboutme");
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
