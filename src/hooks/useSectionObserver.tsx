@@ -4,7 +4,7 @@ import type { RefObject } from "react";
 export function useSectionObserver(
   refs: { id: string; ref: RefObject<HTMLDivElement | null> }[]
 ) {
-  const [activeId, setActiveId] = useState<string>("");
+  const [activeId, setActiveId] = useState<string>("aboutme");
 
   useEffect(() => {
     const observer = new IntersectionObserver(

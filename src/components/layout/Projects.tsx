@@ -1,3 +1,5 @@
+import { ArrowRight, ArrowUpRight } from "lucide-react";
+
 const Projects: React.FC = () => {
   const projects = [
     {
@@ -40,7 +42,7 @@ const Projects: React.FC = () => {
             <div className="flex flex-row text-textColor subpixel-antialiased group-hover:text-primaryColor duration-300">
               <p className="font-semibold text-lg">{project.name}</p>
               <p className="ml-1 transform text-xl transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1">
-                &#8599;
+                <ArrowUpRight />
               </p>
             </div>
             <p className="mt-[1%] text-textColor subpixel-antialiased text-md">
@@ -72,8 +74,8 @@ const Projects: React.FC = () => {
           <p className="transition-all decoration-transparent text-lg font-semibold group-hover:underline group-hover:decoration-primaryColor duration-300 underline-offset-[8px]">
             View All Projects
           </p>
-          <p className="ml-1 text-xl subpixel-antialiased transform transition-transform duration-300 group-hover:translate-x-1">
-            &rarr;
+          <p className="ml-1 mt-[1%] text-xl subpixel-antialiased transform transition-transform duration-300 group-hover:translate-x-1">
+            <ArrowRight />
           </p>
         </div>
       </a>

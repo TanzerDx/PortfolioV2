@@ -3,7 +3,7 @@ import Menu from "./components/common/Menu";
 import AboutMe from "./components/layout/AboutMe";
 import TechStack from "./components/layout/TechStack";
 import Projects from "./components/layout/Projects";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { useSectionObserver } from "./hooks/useSectionObserver";
 
 const Page: React.FC = () => {
@@ -16,6 +16,10 @@ const Page: React.FC = () => {
     { id: "techstack", ref: techstackRef },
     { id: "projects", ref: projectsRef },
   ]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="flex flex-col 2xl:flex-row pt-[5%] pb-[2%]">
@@ -45,7 +49,7 @@ const Page: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-[10%] md:mt-[6%] lg:mt-[5%] xl:mt-[4%] ml-[3%] items-center 2xl:ml-[50%] 2xl:mt-[0%] 2xl:w-1/2 2xl:z-10">
+      <div className="mt-[14%] md:mt-[6%] lg:mt-[5%] xl:mt-[4%] ml-[3%] items-center 2xl:ml-[50%] 2xl:mt-[0%] 2xl:w-1/2 2xl:z-10">
         <div className="2xl:mb-[150px] pr-[3%] 2xl:pl-[3%] 2xl:max-w-[700px]">
           <p className="text-primaryColor mb-[2%] font-bold text-xl 2xl:hidden">
             ABOUT ME
@@ -56,7 +60,7 @@ const Page: React.FC = () => {
         </div>
 
         <div ref={techstackRef} id="techstack" className="2xl:pb-[30px]">
-          <p className="text-primaryColor mb-[2%] xl:mb-[0.5%] font-bold text-xl 2xl:hidden">
+          <p className="text-primaryColor mb-[7%] xl:mb-[0.5%] font-bold text-xl 2xl:hidden">
             TECH STACK
           </p>
           <TechStack />
