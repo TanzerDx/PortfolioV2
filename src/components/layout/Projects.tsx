@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
             protocol and SRS as a streaming server to deliver the best quality \
             possible to the users.",
       techstack: ["React", "SRS", "nginx", "TypeScript"],
-      href: "https://github.com/orgs/PibbleTV/repositories",
+      href: "https://github.com/PibbleTV",
     },
   ];
 
