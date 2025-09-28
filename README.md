@@ -4,6 +4,8 @@ A personal portfolio showcasing projects and skills, built with **React (TypeScr
 
 [🌐 Visit the live site](https://hristoganchev.dev)
 
+![Website Overview](public/site.png)
+
 ---
 
 ## 📑 Table of Contents
