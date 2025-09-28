@@ -40,12 +40,26 @@ In my free time, I enjoy **travelling, doing sports, and spending time with frie
 
 To run the project locally:
 
+1️⃣ Clone the repository to your local machine
 ```bash
 git clone https://github.com/TanzerDx/PortfolioV2.git
+```
+
+2️⃣ Navigate into the project folder
+```bash
 cd PortfolioV2
+```
+
+3️⃣ Install the project dependencies
+```bash
 npm install
+```
+
+4️⃣ Start the development server
+```bash
 npm start
 ```
+
 
 ---
 
