@@ -1,69 +1,55 @@
-# React + TypeScript + Vite
+# Hristo Ganchev's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio showcasing projects and skills, built with **React (TypeScript)** and deployed on **Netlify**.
 
-Currently, two official plugins are available:
+[🌐 Visit the live site](https://hristoganchev.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📑 Table of Contents
+- [👤 About Me]
+- [💻 Tech Stack]
+- [⚙️ Installation]
+- [📬 Contact]
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## 👤 About Me
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+Hey! My name is **Hristo**. I am a 4th-year Software Engineering student in the Netherlands.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
+I started my software journey in 2022 with little to no experience. Since then, I have learned many languages, tools, and frameworks widely used in the industry. I am passionate about my career development, always eager to learn new things, and continuously improving my skills.
+
+Currently, I am looking for an internship that will allow me to grow professionally and prepare me for a software engineering career after graduation. I can work both independently and in a team setting.
+
+In my free time, I enjoy **travelling, doing sports, and spending time with friends and family**.
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** React, TypeScript
+- **Styling:** TailwindCSS
+- **Deployment:** Netlify
+
+---
+
+## ⚙️ Installation
+
+To run the project locally:
+
+```bash
+git clone https://github.com/TanzerDx/PortfolioV2.git
+cd PortfolioV2
+npm install
+npm start
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+## 📬 Contact
 
-export default tseslint.config([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+- **Website:** [hristoganchev.dev](https://hristoganchev.dev)  
+- **Email:** [hristoganchev3@gmail.com](mailto:hristoganchev3@gmail.com)  
+- **LinkedIn:** [Hristo Ganchev](https://www.linkedin.com/in/hristo-ganchev-15b3b724b/)
+
