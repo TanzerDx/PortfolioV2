@@ -1,4 +1,3 @@
-import React from "react";
 import ReactLogo from "../../assets/images/React.png";
 import SpringLogo from "../../assets/images/SpringBoot.png";
 import DockerLogo from "../../assets/images/Docker.png";
@@ -15,12 +14,12 @@ import TailwindLogo from "../../assets/images/Tailwind.png";
 const techStack = [
   { name: "Java", logo: JavaLogo },
   { name: "C#", logo: CSLogo },
-  { name: "HTML5", logo: HTML5Logo },
+  { name: "Spring Boot", logo: SpringLogo },
   { name: "React", logo: ReactLogo },
   { name: "JavaScript", logo: JSLogo },
   { name: "TypeScript", logo: TSLogo },
+  { name: "HTML5", logo: HTML5Logo },
   { name: "Tailwind", logo: TailwindLogo },
-  { name: "Spring Boot", logo: SpringLogo },
   { name: "nginx", logo: NGINXLogo },
   { name: "Unity5", logo: UnityLogo },
   { name: "Docker", logo: DockerLogo },
@@ -30,7 +29,7 @@ const techStack = [
 const TechStack: React.FC = () => {
   return (
     <div>
-      <div className="grid mb-[270px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3 gap-x-[5%] gap-y-[7%] sm:mb-[400px] md:mb-[200px] lg:mb-[100px] xl:mb-[150px] 2xl:mb-[70px] 2xl:w-[700px]">
+      <div className="grid mb-[270px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3 gap-x-[5%] gap-y-[7%] sm:mb-[400px] md:mb-[200px] lg:mb-[100px] xl:mb-[150px] 2xl:mb-[70px] xl:mr-[6%] 2xl:ml-[0] 2xl:w-[700px]">
         {techStack.map((tech) => (
           <div
             key={tech.name}
