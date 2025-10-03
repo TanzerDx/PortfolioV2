@@ -30,13 +30,13 @@ const techStack = [
 const TechStack: React.FC = () => {
   return (
     <div>
-      <div className="grid mb-[270px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-3 gap-x-[5%] gap-y-[7%] sm:mb-[400px] md:mb-[200px] lg:mb-[100px] xl:mb-[150px] 2xl:mb-[70px] 2xl:w-[700px]">
+      <div className="grid mb-[270px] grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-3 gap-x-[5%] gap-y-[7%] sm:mb-[400px] md:mb-[200px] lg:mb-[100px] xl:mb-[150px] 2xl:mb-[70px] 2xl:w-[700px]">
         {techStack.map((tech) => (
           <div
             key={tech.name}
             className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group"
           >
-            <div className="w-[40%] h-[80%] md:w-[50%] md:h-[90%] lg:w-[45%] md:h-[85%] rounded-3xl">
+            <div className="w-[35%] h-[70%] md:w-[40%] md:h-[80%] lg:w-[45%] lg:h-[85%] rounded-3xl">
               <img
                 src={tech.logo}
                 alt={`${tech.name} Logo`}
@@ -44,7 +44,7 @@ const TechStack: React.FC = () => {
               />
             </div>
             <div className="justify-center items-center">
-              <p className="font-inter font-semibold subpixel-antialiased text-md mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
+              <p className="font-inter font-semibold subpixel-antialiased text-md mt-[25%] md:mt-[10%] text-center opacity-0 group-hover:opacity-100 transition-opacity text-white duration-300">
                 {tech.name}
               </p>
             </div>
