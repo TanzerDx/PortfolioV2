@@ -50,7 +50,7 @@ const Page: React.FC = () => {
       </div>
 
       <div className="mt-[14%] md:mt-[6%] lg:mt-[5%] ml-[3%] items-center xl:ml-[50%] 2xl:ml-[50%] xl:mt-[0%] xl:w-1/2 xl:z-10">
-        <div className="xl:mb-[130px] 2xl:mb-[170px] pr-[3%] xl:pl-[3%] xl:max-w-[700px]">
+        <div className="xl:mb-[140px] 2xl:mb-[140px] pr-[3%] xl:pl-[3%] xl:max-w-[700px]">
           <p className="text-primaryColor mb-[2%] font-bold text-xl xl:hidden">
             ABOUT ME
           </p>
@@ -69,7 +69,7 @@ const Page: React.FC = () => {
         <div
           ref={projectsRef}
           id="projects"
-          className="mt-[230px] md:mt-[100px] xl:mt-[60px] 2xl:mt-[150px] mb-[50px]"
+          className="mt-[230px] md:mt-[100px] xl:mt-[90px] 2xl:mt-[150px] mb-[50px]"
         >
           <p className="text-primaryColor mb-[1.5%] font-bold text-xl xl:hidden">
             PROJECTS

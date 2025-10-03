@@ -36,7 +36,7 @@ const TechStack: React.FC = () => {
             key={tech.name}
             className="flex flex-col justify-center items-center hover:-translate-y-[6%] duration-300 group"
           >
-            <div className="w-[35%] h-[70%] md:w-[40%] md:h-[80%] lg:w-[45%] lg:h-[85%] rounded-3xl">
+            <div className="w-[35%] h-[70%] md:w-[40%] md:h-[80%] lg:w-[45%] lg:h-[85%] 2xl:w-[55%] 2xl:h-[95%] rounded-3xl">
               <img
                 src={tech.logo}
                 alt={`${tech.name} Logo`}
