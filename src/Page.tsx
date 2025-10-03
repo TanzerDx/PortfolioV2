@@ -60,7 +60,7 @@ const Page: React.FC = () => {
         </div>
 
         <div ref={techstackRef} id="techstack" className="2xl:pb-[30px]">
-          <p className="text-primaryColor mb-[7%] xl:mb-[0.5%] font-bold text-xl 2xl:hidden">
+          <p className="text-primaryColor mb-[5%] lg:mb-[4%] xl:mb-[4%] font-bold text-xl 2xl:hidden">
             TECH STACK
           </p>
           <TechStack />
