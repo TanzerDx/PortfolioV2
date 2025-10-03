@@ -25,11 +25,18 @@ const Page: React.FC = () => {
   const [hasShownOnce, setHasShownOnce] = useState(false);
 
   useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+
     if (activeId === "techstack" && !hasShownOnce) {
-      setShowTooltip(true);
-      setHasShownOnce(true);
-      setTimeout(() => setShowTooltip(false), 4000);
+      timer = setTimeout(() => {
+        setShowTooltip(true);
+        setHasShownOnce(true);
+
+        setTimeout(() => setShowTooltip(false), 4000);
+      }, 200);
     }
+
+    return () => clearTimeout(timer);
   }, [activeId, hasShownOnce]);
 
   return (
