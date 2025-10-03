@@ -37,7 +37,13 @@ const Projects: React.FC = () => {
   return (
     <div className="flex flex-col gap-8 pr-[3%] 2xl:pl-[3%] 2xl:max-w-[700px]">
       {projects.map((project) => (
-        <a key={project.name} className="group" href={project.href}>
+        <a
+          key={project.name}
+          className="group"
+          href={project.href}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="rounded-2xl border border-transparent bg-white/0 hover:bg-white/10 duration-300 px-1 py-4">
             <div className="flex flex-row text-textColor subpixel-antialiased group-hover:text-primaryColor duration-300">
               <p className="font-semibold text-lg">{project.name}</p>
@@ -69,6 +75,8 @@ const Projects: React.FC = () => {
       <a
         className="group w-[200px] px-1"
         href="https://github.com/TanzerDx?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <div className="flex flex-row text-textColor subpixel-antialiased">
           <p className="transition-all decoration-transparent text-lg font-semibold group-hover:underline group-hover:decoration-primaryColor duration-300 underline-offset-[8px]">
